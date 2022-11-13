@@ -1,0 +1,1 @@
+This is a text document. I shall use it while writing a python program to rename a file using python program
