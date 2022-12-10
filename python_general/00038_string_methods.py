@@ -35,3 +35,51 @@ print(len(f1))
 
 g = "Sakuni was a great adviser. Sakuni used to give cunning advises to Duryodhan. Sakuni had a sister named Gandhari"
 print(g.count("Sakuni")) # counts the number of times Sakuni occurs in the string g
+
+h = "Hurrah!!! We won the match !!!"
+print(h.endswith("!!!")) # returns true or false depending upon whether h is ending with "!!!" or not
+
+h1 = "welcome to my party"
+print(h1.endswith("to", 4, 10)) # returns true or false depending upon whether h1[4:10] is ending with "to" or not
+# there is also a method called startswith
+
+i = "sakuni is a great personality. Duryodhan is boastful"
+print(i.find("is")) # returns the first occurrence of "is", if "is" is not found, it returns a negative number
+print(i.find("arya"))
+
+j = "sakuni is a great personality. Duryodhan is boastful"
+print(j.index("is")) # returns the index number where "is" was found, if "is" is not found in the whole string it will produce an error
+# print(i.index("arya")) # this will produce an error
+
+k = "WelcomeToMyHouse"
+print(k.isalnum()) # returns true or false depending upon whether all the characters present in the string are alphanumeric characters or not !!
+# A-Z, a-z, 0-9 are called alphanumeric characters
+
+l = "hellofriends"
+print(l.isalpha()) # returns true or false depending upon whether all the characters present in the string are numberic characters or not !!
+l1 = "hello111"
+print(l1.isalpha())
+# A-Z, a-z are called numeric characters
+
+m = "hello world"
+print(m.islower()) # returns true or false depending upon whether all the characters are lower cased or not
+m1 = "Hello world"
+print(m1.islower())
+# there is also a method named isupper
+
+n = "hello world"
+print(n.isprintable()) # returns true if all the characters are printable characters
+n1 = "hello world\n"
+print(n1.isprintable()) # returns false as \n is not a printable character
+
+o = "  "
+print(o.isspace()) # returns true is the spaces are white spaces. white spaces are made by spacebar or tab
+
+p = "Hello World"
+print(p.istitle()) # returns true if the first characters of all the words are capitalized else returns false
+
+q = "Hello woRlD"
+print(q.swapcase()) # swaps the cases of all the letters 
+
+r = "welcome to my party"
+print(r.title()) # capitalizes the first letters of all the words
