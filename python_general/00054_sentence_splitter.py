@@ -1,4 +1,4 @@
-sentece = input().split()
+sentence = input().split()
 
-for i in range(len(sentece)) :
-    print(sentece[i])
+for i in range(len(sentence)) :
+    print(sentence[i])
