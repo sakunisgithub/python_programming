@@ -12,4 +12,4 @@ points = np.empty(no_of_papers, dtype = np.int8)
 for i in range(no_of_papers) :
     points[i] = int(input(f"Enter the point you scored in paper {i + 1} = "))
 
-print(f"Your CGPA is {np.sum(credits * points) / np.sum(credits)}")
+print(f"Your SGPA is {np.sum(credits * points) / np.sum(credits)}")
